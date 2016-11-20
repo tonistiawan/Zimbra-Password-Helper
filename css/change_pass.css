@@ -1,0 +1,145 @@
+#antirobo_slider { margin: 10px; }
+h1 {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Raleway', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#login_inputs .profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 20px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#login_top_header {
+	width: 100%;
+	margin: 0;
+	padding-top: 45px;
+}
+
+#msg_result {
+	padding: 40px;
+	margin: auto;
+	position: relative;
+	background-color: #f7f7f7;
+	width: 200px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#login_inputs {
+	padding: 40px;
+	margin: auto;
+	position: relative;
+	background-color: #f7f7f7;
+	width: 450px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+input.textInput {
+	width: 300px;
+	height: 55px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	-webkit-text-stroke: 0.1px;
+}
+
+#mainCaptcha {
+	width: 250px;
+	height: 50px;
+	font-weight: 300;
+    font-size:40px;
+    color:red;
+    background-color:#0C0C0C;
+	border-radius: 5px;
+    border: 1px solid #378DE5;;
+    padding:2px;
+}
+
+#userText {
+	width: 200px;
+	height: 30px;
+	font-weight: 150;
+    font-size:20px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	-webkit-text-stroke: 0.1px;
+}
+
+#login_inputs input[type=submit] {
+	width: 300px;
+	height: 55px;
+	color: #378DE5;
+	background-color: #fff;
+	border: 1px solid #378DE5;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	transition: all .3s ease;
+	margin-top: 0px;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	-webkit-text-stroke: 0.1px;
+}
+
+#login_inputs input[type=submit]:hover {
+	background-color: #378DE5;
+	color: #fff;
+}
+
+#login_inputs .bottom {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#login_inputs a {
+	text-decoration: none;
+	color: #282828;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	transition: color .3s ease;
+	outline: none;
+}
+
+#login_inputs a:hover {
+	color: #1eb056;
+}
+
+#login_inputs .right_a {
+	float: right;
+}
+
+#register,#forgotpassword {
+	display: none;
+}
